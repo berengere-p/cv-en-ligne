@@ -62,8 +62,13 @@ section{
 h1{
 	margin: 10px 10px 10px 10px;
 	color: #6184a3;
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	font-size: 30px;
+}
+
+
+span{
+	font-weight: bold;
 }
 
 img{
@@ -78,6 +83,31 @@ footer{
 	width: 45%;
 }
 
+
 footer div ul li{
 	display: inline-block; 
 }
+
+.hidden-box {
+  display: none;
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+}
+
+footer:hover .hidden-box {
+  display: block;
+}
+
+/*.parent {
+ background-color: yellow;
+ height: 200px;
+ width: 200px;
+}
+.hidden-box {
+ display: none;
+ background-color: black;
+}
+.parent:hover .hidden-box {
+ display: block;
+}*/
