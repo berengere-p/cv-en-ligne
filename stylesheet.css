@@ -1,14 +1,20 @@
 html{
 	font-family: 'EB Garamond', serif;
+	background-color: #F8F8FF;
 }
 
+nav{
+	margin-left: -37px;
+}
 nav ul li{
+	color: #F8F8FF;
 	display: inline-block; 
 	font-family: "Helvetica";
 	height: 20px;
 	background-color: #6184a3;
-	border-radius: 20px 20px 20px 20px;
+	border-radius: 10px 10px 10px 10px;
 	padding: 5px 5px 5px 5px;
+	font-size: 15px;
 }
 
 li{
@@ -30,12 +36,14 @@ li{
 
 article{
 	margin-left: 425px;
+	background-color: #F8F8FF;
 }
 
 section{
 	background-color: #eef3f9;
 	border-radius: 10px 10px 10px 10px;
 	width: 80%;
+	padding: -5px -5px -5px -5px;
 }
 
 h1{
@@ -47,4 +55,16 @@ h1{
 
 img{
 	border-radius: 10px 10px 10px 10px;
+}
+
+footer{
+	border-top: solid black 2px;
+	margin-top: 50px;
+	margin-left: 475px;
+	padding: 10px;
+	width: 45%;
+}
+
+footer div ul li{
+	display: inline-block; 
 }
