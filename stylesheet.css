@@ -4,8 +4,21 @@ html{
 }
 
 nav{
-	margin-left: -37px;
+	margin-left: -100px;
+	background-color: #F8F8FF;
 }
+
+a{
+	text-decoration: none;
+	color: #F8F8FF;
+}
+
+nav a:hover{
+	transform-style: none;
+	color: #4f5d6a;
+	text-decoration: none;
+}
+
 nav ul li{
 	color: #F8F8FF;
 	display: inline-block; 
@@ -22,7 +35,7 @@ li{
 }
 
 #left{
-	margin-left: 25px;
+	margin-left: 150px;
 	color: #F8F8FF;
 	text-align: center;
 	position: fixed;
@@ -35,7 +48,7 @@ li{
 }
 
 article{
-	margin-left: 425px;
+	margin-left: 575px;
 	background-color: #F8F8FF;
 }
 
@@ -58,9 +71,9 @@ img{
 }
 
 footer{
-	border-top: solid black 2px;
+	border-top: solid #4f5d6a 2px;
 	margin-top: 50px;
-	margin-left: 475px;
+	margin-left: 565px;
 	padding: 10px;
 	width: 45%;
 }
