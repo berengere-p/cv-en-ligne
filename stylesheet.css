@@ -14,7 +14,6 @@ a{
 }
 
 nav a:hover{
-	transform-style: none;
 	color: #4f5d6a;
 	text-decoration: none;
 }
@@ -32,6 +31,11 @@ nav ul li{
 
 li{
 	list-style-type: none;
+}
+
+h1{
+	font-size: 20px;
+	font-family: "EB-Garamond", serif;
 }
 
 #left{
@@ -59,14 +63,14 @@ section{
 	padding: -5px -5px -5px -5px;
 }
 
-section h1:before{
+section h2:before{
 	content: "";
 	position: relative;
 	border-left: 3px solid #6184a3;
 	margin-right: 10px; 
 }
 
-h1{
+h2{
 	margin: 10px 10px 10px 10px;
 	color: #6184a3;
 	font-family: Helvetica, sans-serif;
@@ -110,11 +114,18 @@ img{
 footer{
 	border-top: solid #4f5d6a 2px;
 	margin-top: 20px;
-	margin-left: 600px;
+	margin-left: 565px;
 	padding: 10px;
-	width: 45%;
+	width: 50%;
 }
 
 footer div ul li{
-	display: inline-block; 
+	display: inline-block;
+	margin-left: 5px;
+}
+
+@media (max-width:768px){
+  h1{
+    font-size: 10px;
+  }
 }
