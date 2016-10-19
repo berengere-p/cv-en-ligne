@@ -1,4 +1,4 @@
-html{
+body{
 	font-family: 'EB Garamond', serif;
 	background-color: #F8F8FF;
 }
@@ -22,15 +22,30 @@ nav ul li{
 	color: #F8F8FF;
 	display: inline-block; 
 	font-family: "Helvetica";
-	height: 20px;
+	/*height: 20px;*/
 	background-color: #6184a3;
 	border-radius: 10px 10px 10px 10px;
 	padding: 5px 5px 5px 5px;
 	font-size: 15px;
+	margin-left: 5px;
+	margin-top: 20px;
 }
 
 li{
 	list-style-type: none;
+}
+
+#left{
+	/*margin-left: 150px;*/
+	color: #F8F8FF;
+	text-align: center;
+	position: fixed;
+	background-color: #4f5d6a;
+	margin-top: 20px;
+	/*width: 335px;*/
+	font-size: 20px;
+	border-radius: 10px 10px 10px 10px;
+	padding-bottom: 20px;
 }
 
 h1{
@@ -38,21 +53,8 @@ h1{
 	font-family: "EB-Garamond", serif;
 }
 
-#left{
-	margin-left: 150px;
-	color: #F8F8FF;
-	text-align: center;
-	position: fixed;
-	background-color: #4f5d6a;
-	margin-bottom: 10px;
-	width: 335px;
-	height: 95%;
-	font-size: 20px;
-	border-radius: 10px 10px 10px 10px;
-}
-
 article{
-	margin-left: 525px;
+	/*margin-left: 525px;*/
 	background-color: #F8F8FF;
 }
 
@@ -63,6 +65,14 @@ section{
 	padding: -5px -5px -5px -5px;
 }
 
+h2{
+	margin: 10px 10px 10px 10px;
+	color: #6184a3;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
 section h2:before{
 	content: "";
 	position: relative;
@@ -70,11 +80,8 @@ section h2:before{
 	margin-right: 10px; 
 }
 
-h2{
-	margin: 10px 10px 10px 10px;
-	color: #6184a3;
-	font-family: Helvetica, sans-serif;
-	font-size: 30px;
+.section{
+	padding-bottom: 5px;
 }
 
 span{
@@ -88,6 +95,7 @@ img{
 .parent {
 	background-color: #F8F8FF;
 	height: 40px;
+	margin-bottom: 10px;
 }
 
 .hidden-box {
@@ -97,7 +105,7 @@ img{
 	text-align: center;
 	width: 95%;
 	height: 40px;
-	padding-top: 15px;
+	padding-top: 10px;
 	transition: background-color 3s ease-out;
 }
 
@@ -113,19 +121,36 @@ img{
 
 footer{
 	border-top: solid #4f5d6a 2px;
-	margin-top: 20px;
-	margin-left: 565px;
-	padding: 10px;
-	width: 50%;
-}
+	/*margin-top: 20px;*/
+	/*margin-left: 565px;*/
+	padding: 20px;
+	}
 
 footer div ul li{
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 10px;
 }
 
 @media (max-width:768px){
-  h1{
-    font-size: 10px;
-  }
+	h1{
+    	font-size: 15px;
+  	}
+  	h2{
+  		font-size: 20px;
+  	}
+  	header p{
+  		font-size: 10px;
+  	}
+}
+
+@media (max-width:1200px){
+  	#left{
+  		position: relative;
+  	}
+}
+
+@media (min-width:413px){
+	#left{
+		width: 335px;
+	}
 }
