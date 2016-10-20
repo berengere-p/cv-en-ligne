@@ -37,12 +37,43 @@ li{
 	list-style-type: none;
 }
 
+/*----Les lignes suivantes concernent la "pop-up"----*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #4f5d6a;
+    border: none;
+    font-family: "EB-Garamond";
+    margin-bottom: 40px;
+   	margin-left: 42%;
+}
+
+.modal-body{
+	font-size: 15px;
+	color:#4f5d6a;
+	font-family: "Helvetica";
+}
+
+.modal-title{
+	font-size: 20px;
+	color:#6184a3;
+	font-family: "Helvetica";
+}
+
+.btn-default{
+	font-family: "Helvetica";
+	font-weight: bold;
+	background-color: #6184a3;
+	color:#F8F8FF;
+}
+
 /*----Les lignes suivantes concernent la barre de navigation "burger"----*/
 
 .navbar-default {
     background: none;
     border: none;
     color:#4f5d6a;
+    margin: auto;
 }
 
 .nav li a {
