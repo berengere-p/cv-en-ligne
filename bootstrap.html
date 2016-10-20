@@ -22,15 +22,23 @@
 			<br>2 rue Leconte de Lisle 91540 Mennecy
 			<br>Tel portable : 06 81 14 94 75
 			<br>Email : berengere.pomies@telecom-em.eu
-			<br>
-			<br><a href="https://www.facebook.com/berengere.pomies" title="Accéder à mon profil Facebook"> <img src="image/fb.png" alt="Logo Facebook"> </a>
+			<!--<div>
+				<form class="form-inline" role="form">
+					<div class="form-group">
+						<label for="mail">Intéressé(e) ? Laissez votre email</label>
+						<input type="email" class="form-control" id="mail" placeholder="Votre email">
+						<input type="submit" value="Soumettre" class="btn btn-info">
+					</div>
+				</form>
+			</div>-->
+			<div><a href="https://www.facebook.com/berengere.pomies" title="Accéder à mon profil Facebook"> <img src="image/fb.png" alt="Logo Facebook"> </a></div>
 			<!--<a href="https://twitter.com/be_pomies"> <img src="image/twitter.png" alt="Logo Twitter"></a>-->
 			</p>
 		</div>
 	</header>
 
 	<article class="col-md-8">
-		<nav>
+		<!--<nav>
 			<ul class="list-inline">
 				<li><a href="#formation" title="Accéder à la section Formation">Formation</a></li>
 				<li><a href="#experiences" title="Accéder à la section Expériences">Expériences professionnelles</a></li>
@@ -38,6 +46,29 @@
 				<li><a href="#interet" title="Accéder à la section Centres d'intérêt">Centres d'intérêt</a></li>
 				<li><a href="#liens" title="Accéder aux Liens externes">Liens externes</a></li>
 			</ul>
+		</nav>-->
+
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      				</button>
+    			</div>
+
+       			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       				<ul class="nav navbar-nav"> 
+       					<li><a href="#formation" title="Accéder à la section Formation">Formation</a></li>
+						<li><a href="#experiences" title="Accéder à la section Expériences">Expériences professionnelles</a></li>
+						<li><a href="#competences" title="Accéder à la section Compétences et Certifications">Compétences</a></li>
+						<li><a href="#interet" title="Accéder à la section Centres d'intérêt">Centres d'intérêt</a></li>
+						<li><a href="#liens" title="Accéder aux Liens externes">Liens externes</a></li>
+    				</ul>
+    			</div>
+  			</div>
 		</nav>
 
 		<section id="formation" class="section">
@@ -94,7 +125,6 @@
 		        Embauchez moi !
 		    </div>
 		</div>
-
 	</article>
 
 	<footer class="col-md-8 col-md-offset-4 list-inline">
